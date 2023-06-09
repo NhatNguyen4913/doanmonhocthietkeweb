@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    height: 100vh;
+    background: #fff
+}
+
+ul a:hover{
+    background-color: rgb(255, 51, 0);
+    padding: 5px 15px;
+    color: aliceblue;
+ }
+ .container{
+    max-width: 1300px;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+ }
+ .main-navbar ul{
+  list-style: none;
+    display:flex;
+    padding-top: 15px;
+ }
+ .main-navbar ul li a{
+    text-decoration: none ;
+    margin-left: 40px;
+    color: #1F1534;
+    font-size: 18px;
+    font-weight: 400;
+ }
+ #header{
+    padding-top: 50px;
+    background: url(./element.png);
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+  }
+.head-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    font-family: 'Muli';
+    font-style: normal;
+
+}
+.head-text span{
+font-size:25px;
+font-family: 'Moli';
+font-style: normal;
+line-height: 32px;
+font-weight: 300px;
+color: #7D7987;
+}
+.head-text button{
+    border-radius: 55px;
+    display: block;
+    padding: 12px 48px;
+    background-color :#458FF6;
+    font-size: 18px ;
+    border: none;
+    margin-top: 30px    
+}
+.logo span a {
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-size: 24px;
+    color: #233348;
+    margin-left: 10px;
+}
+.texxt h3{
+    font-size: 36px ;
+    font-family: 'Mulish';
+    line-height: 56px;
+    text-align: center;
+}
+.texxt span {
+ font-family: 'Mulish';
+ font-style: normal;
+ font-size: 25px;
+ display: flex;
+ text-align: center;
+ padding-top: 20px;
+}
+.texxt {
+   padding-top: 35px;
+}
+.hello1{
+    justify-content: center;
+    display: flex;
+    color:#7D7987;
+}
+.container1{
+   width: 1130px;
+   height: 775px;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   margin-top: 35px;
+   padding: 20px;
+   flex-wrap: wrap; /* tự động rớt xuống */
+}
+#section{
+    background: url(./Vector\ \(3\).png);
+    background-repeat: no-repeat; /* chỉ còn lại một cái*/
+    background-position-y: 25%; /* dịch chuyển theo phương y */
+
+}
+.new-item{
+    background-color:#fff;
+    width: 30%;
+    height: 354px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    padding: 20px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.new-item.span1{
+    padding-top: 20px;
+}
+.icon3{
+    text-align: center;
+ }
+.span1 h1{
+    font-size: 25px;
+    font-weight: 700; 
+    font-family: 'Muli';
+    line-height: 56px;
+    font-style: normal;
+}
+  .doctor{
+    font-size: 20px;
+    color:  #7D7987;
+    font-family: 'Muli';
+    font-weight: 300;
+    line-height: 28px;
+    font-style: normal;
+    font-size: 18px;
+}
+ .iamges3 button{
+      border-radius: 55px;
+      border: 1.4px solid #458FF6;
+      color: #458FF6;
+      font-size: 20px;
+      font-weight: 700; 
+      line-height: 60px;
+      font-style: normal;
+      background-color: #fff;
+      padding: 5px 65px;
+ }
+    .iamges3{
+        text-align: center;
+        padding-top: 20px;
+    }
+ 
+ .test h2{
+    font-size: 36px;
+    font-weight: 700;
+ }
+ .test img{
+    display: block;
+    padding: 20px;
+ }
+ .test span{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Muli';
+ }
+ .test button{
+    border-radius:55px;
+    border: 1.5px solid #458FF6;
+    color: #458FF6;
+    background-color: #fff;
+    font-size: 20px;
+    padding: 16px 48px;
+    display: block;
+    margin-top: 20px;
+   
+ }
+   .container3{
+    width: 1273px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px;
+    margin-top: 60px;
+    align-items: center;
+    padding-top: 50px;
+   }
+   .container4{
+    width: 1273px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px;
+    margin-top: 60px;
+    align-items: center;
+    padding-top: 50px;
+   }
+   #ide{
+    background: url(./Vector\ \(4\).png);
+    background-repeat: no-repeat ;
+    background-position: right top ;
+
+   }
+   .Download button{
+    display: flex;
+    align-items: center;
+    padding: 2px 34px;
+    color: #458FF6;
+   }
+.conten{
+    width: 1120px;
+    height: 425px;
+    background-color: #67C3F3 ;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 24px;   
+    
+}
+h4{
+  text-align: center;
+   padding-top:30px;
+   color: #fff;
+   font-weight: 700;
+   font-style: normal;
+   font-family: 'Muli';
+   font-size: 38px;
+}
+.header{
+    text-align: center;
+}
+img{
+    padding-top: 20px;
+}
+h5{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Muli';
+    font-style: normal;
+    line-height: 48px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+ p{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 48px;
+    font-family: 'Muli';
+    color: rgba(255, 255, 255, 0.85);
+    padding-left: 23px;
+   
+    }
+    .containers{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:50px;
+    }
+    .Newgate{
+      display:flex;
+      align-items: center;
+      padding-left: 30px;
+    }
+    .dedicated span{
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 20px;
+        font-weight: 400;
+        font-size: 'Muli';
+        line-height: 30px;
+        padding-right: 100px;
+    }
+    .img{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .hello3{
+        text-align: center;  
+        margin-top: 20px;
+    }
+    .hello3 h1{
+         font-size: 36px;
+         font-family: 'Muli';
+         font-weight: 700;
+         line-height: 56px;
+    }
+   .container6{
+    width: 1400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;  
+}
+.detection{
+    background-color:#fff;
+    width: 30%;
+    height: 554px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 30px;
+}
+.detection .img {
+    padding-top: 0;
+}
+.detection .img img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 0;
+}
+.check h2{
+    color: #1F1534;
+    font-size: 21px;
+    font-family: 'Muli';
+     padding-left: 20px;
+    line-height: 30px;
+   font-style: normal;
+}
+.check p{
+    color: #7D7987;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 15px;
+}
+.detection .check{
+    padding:20px;
+}
+.Read p{
+ color: #4089ED;
+ font-size: 18px;
+ font-weight: 600;
+ font-style: normal;
+ font-family: 'Muli';
+ margin-left: 20px;
+}
+.Read img{
+  padding-left: 20px;
+}
+.viewal button{
+    border-radius: 55px;
+    border: 1.5px solid #458FF6;
+    font-size: 20px;
+    background-color: #fff;
+    color:  #458FF6;
+   padding: 10px 50px;
+}
+.viewal{
+    text-align: center;
+}
+ .phancuoi{
+    width:  2025px;
+    height: 432px;
+    background-color: #458FF6;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.Company{
+    width: 400;
+    padding-top: 20px;
+    padding:100px;     
+    font-style:normal; 
+}
+.progressive2 p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.reserved p{
+   font-size: 18px;
+   line-height: 28px;
+   font-weight: 300;
+   font-style: normal;
+   color: #fff;
+   margin-top: 20px;
+}
+.Trafalgar2 button{
+    border-radius: 50%;
+    background-color:#fff;
+    padding: 6px 15px;
+    border: none;
+   color: #5B9BF3;
+   font-size: 25px;  
+}
+.Trafalgar2 {
+    display: flex;
+    padding-left:20px;
+    align-items:center ;
+}
+.Trafalgar2 p{
+    color:#ffff;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    font-style: normal;  
+} 
+.Company h1{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 38px;
+    color:#fff;
+    font-style: normal;
+}
+.Company ul{
+    list-style: none;
+}
+.Company ul li a{
+    text-decoration: none;
+    font-size:20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 37px;
+    color: #fff;
+}
